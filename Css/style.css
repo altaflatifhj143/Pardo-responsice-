@@ -1,0 +1,468 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.headersec {
+	background-color: rgb(133, 88, 95);
+	background-size: cover;
+	background-repeat: no-repeat;
+    /* height: 700px; */;
+}
+
+.navbar-nav li a {
+	color: black !important;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* .image-col img{
+    max-width: 439px;
+} */
+.content-inner p {
+	font-weight: 800;
+	border-left: 2px solid;
+	padding-left: 7px;
+}
+
+.started-btn {
+	margin-top: 35px;
+}
+
+.get-started-btn {
+	text-decoration: none;
+	color: white;
+	border: 1px solid rgb(151, 132, 132);
+	padding: 13px 47px;
+	background-color: black;
+	font-weight: 700;
+}
+
+.SUBSCRIBEbtn {
+	text-decoration: none;
+	color: white;
+	border: 1px solid rgb(151, 132, 132);
+	padding: 13px 47px;
+	background-color: black;
+	font-weight: 700;
+}
+
+.get-started-btn:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.image-col img {
+	max-width: 100%;
+}
+                    /* styling for slider1 */
+
+.slider1 {
+	background: linear-gradient(to bottom, rgb(133, 88, 95) 10%, rgb(133, 88, 95) 30%, rgb(116, 116, 116) 30%, rgb(116, 116, 116) 100%);
+}
+
+.video-section {
+	background: linear-gradient(to bottom, white 80%, white 30%, rgb(195, 195, 195) 30%, rgb(195, 195, 195) 100%);
+}
+
+.footer-form {
+	background: linear-gradient(to bottom, rgb(195, 195, 195) 50%, rgb(195, 195, 195) 30%, white 30%, white 100%);
+}
+
+.footerform {
+	background-color: white;
+	border: 3px solid rgb(195, 195, 195);
+}
+
+.footerform-wrap {
+	max-width: 80%;
+	margin: auto;
+	padding: 30px 0 37px 40px;
+	text-align: center;
+}
+
+.footerform-wrap input[type="text"] {
+	border: none;
+	border-bottom: 2px solid rgb(82, 79, 79);
+	padding-bottom: 10px;
+	outline: none;
+}
+
+.footerform-wrap h2 {
+	padding: 20px 161px 5px;
+	font-size: 44px;
+	font-weight: 700;
+}
+
+.footerform-wrap p {
+	padding: 10px 30px;
+}
+
+.main-conentent {
+	background-color: white;
+	padding-bottom: 125px;
+    /* padding: 150px 0 150px 0; */;
+}
+
+.wraper-conentent {
+	padding: 50px 0px 80px 0px;
+	text-align: center;
+}
+
+.wraper-conentent p {
+	font-weight: 600;
+	width: 49%;
+	margin: 20px auto;
+	font-size: 17px;
+}
+
+.tablet-col {
+	background-color: pink;
+	max-width: 800px;
+	margin: auto;
+	max-height: 400px;
+}
+
+.contentwraperslide {
+    /* display: flex; */
+	justify-content: center;
+    /* align-items: center; */
+	padding-top: 220px;
+	margin-left: -50px;
+}
+
+.contentwraperslide p {
+	padding: 10px 0;
+}
+
+.owl-dots {
+	display: none;
+}
+
+
+        /* styling for slider 2 */
+.slider2 {
+	margin: 50px 0;
+}
+
+.question-section {
+	background-color: rgb(195, 195, 195);
+}
+
+.vidcontent-wraper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 180px;
+	padding-bottom: 20px;
+}
+
+.vidcontent-wraper h3 {
+	font-weight: bolder;
+}
+
+.vidimage-col {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.vidimage-col img {
+	max-width: 100%;
+    /* height: 80%; */
+	height: 500px;
+}
+
+.question-wraper {
+	width: 60%;
+	margin: auto;
+	cursor: pointer;
+}
+
+.question-wraper hr {
+	background-color: black;
+}
+
+.question-wraper P {
+	text-align: justify;
+	padding: 17px 9px 10px 0;
+}
+
+.colorsques {
+	color: #00706e;
+}
+
+.hide1 {
+	display: none;
+}
+
+.showp1 {
+	display: block;
+}
+
+.hide2 {
+	display: none;
+}
+
+.showp2 {
+	display: block;
+}
+
+.hide3 {
+	display: none;
+}
+
+.showp3 {
+	display: block;
+}
+
+.hide4 {
+	display: none;
+}
+
+.showp4 {
+	display: block;
+}
+
+.hide5 {
+	display: none;
+}
+
+.showp5 {
+	display: block;
+}
+
+
+                /* styling for navbtn */
+.owl-nav{
+    max-width: 4%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.slider2 .owl-item.active.center{
+    transform: scale(1.1);
+    opacity: 1;
+ 
+}
+
+.slider2 .owl-item{
+    opacity: .1;
+}
+        /* Here start media query  */
+
+	
+        @media screen and (max-width:1100px) {
+            .content-inner img{
+                max-width: 100%;
+               }
+              .vidcontent-wraper{
+                padding-left: 80px;
+              }
+              .footerform-wrap h2{
+                padding:20px 100px 5px ;
+                font-size: 30px;
+                font-weight: 700;
+            }
+            .cols-images{
+                display: flex;
+                justify-content: center;
+            }
+            
+    }
+	
+    @media screen and (max-width:850px) {
+        .content-inner img{
+            max-width: 70%;
+           }
+           .vidcontent-wraper{
+            padding-left: 60px;
+        }
+        .question-wraper{
+            width: 80%;
+        }
+        .footerform-wrap h2{
+            padding:20px 50px 5px ;
+            font-size:25px;
+            font-weight: 700;
+        }
+       
+           @media screen and (max-width:774px) {
+           .tablet-col{
+               background-color: white;
+               height: auto;
+           }
+           .contentwraperslide{
+            padding-top: 59px;
+                     margin-left: 0px;
+           }
+           .wraper-conentent p{
+            width: 64%;
+           }
+           .biowraper{
+            padding-top: 18px;
+           }
+           .footerform{
+            border: none;
+        }
+        footer{
+            text-align: center;
+        }
+        .footericons{
+            padding: 0 !important;
+        }
+        }
+@media screen and (max-width:759px) {
+    .content-inner img{
+        max-width:95%;
+        padding: 30px 10px 20px 10px; 
+       }
+       
+       .content-inner{
+           text-align: center;
+            margin-bottom: 30px;
+       }
+       .content-inner p{
+           border: none;
+           padding: 0 10%;
+           font-size: 15px;
+           font-weight: 700;
+       }
+       .main-conentent{
+           max-width: 95%;
+       }
+       .contentwraperslide{
+        padding-top: 59px;
+        padding-bottom: 20px;
+        text-align: center;
+       }
+       .contentwraperslide p{
+           text-align: justify;
+       }
+       .contentwraperslide h3{
+        text-align: left;
+       }
+       .wraper-conentent h1{
+           font-size: 28px;
+           font-weight: 600;
+
+       }
+       .wraper-conentent p{
+           font-weight: 400;
+       }
+       .get-started-btn{
+        padding: 13px 46px;
+       }
+       
+       
+    }      
+    @media screen and (max-width:767px) {
+        .contentwraperslide{
+            padding-top: 98px;
+           }
+           .video-section{
+            background: white
+        
+        }
+    }
+    @media screen and (max-width:450px) {
+       
+        .main-conentent{
+            padding-bottom: 340px;
+        }
+        .contentwraperslide{
+            padding-top: 0px;
+           }
+           .biowraper{
+            padding-top: 28px;
+           }
+           .wraper-conentent P{
+            width: 96%;
+           }
+           .vidcontent-wraper{
+            align-items: center;
+            padding-left: 30px;
+        }
+        .vidcontent-wraper h3{
+            display: none;
+        }
+        .vidcontent-wraper p{
+            padding: 15px 5px 16px 6px;
+        }
+        .vidrow{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .footerform-wrap {
+            padding: 0;
+        }
+        .footerform-wrap input[type="text"] {
+            width: 85% !important;
+            margin-bottom: 30px;
+        }
+        .SUBSCRIBEbtn {
+            padding: 13px 93px;
+        }
+        .footerform-wrap h2{
+            padding:20px 12px 5px ;
+            font-size:22px;
+            font-weight: 700;
+        }
+    }
+        
+    }
+    @media screen and (max-width:375px) {
+        .wraper-conentent p{
+            width: 100%;
+            margin: 0;
+        }
+        .main-conentent{
+            padding-bottom: 260px;
+        }
+        .SUBSCRIBEbtn {
+            padding: 13px 117px;
+        }
+        .footerform-wrap input[type="text"]{
+            width: 106% !important;
+        }
+        .question-wraper{
+            width: 90%;
+        }
+        .question-wraper h5{
+            font-size: 16px;
+        }
+        .myqueshead{
+            font-size: 30px;
+            padding-top: 20px;
+        }
+        .footerwraper{
+            padding: 0;
+        }
+       
+    }
+
+    @media screen and (max-width:330px) {
+        .wraper-conentent p{
+            width: 100%;
+            margin: 0;
+        }
+        .main-conentent{
+            padding-bottom: 240px;
+        }
+        .SUBSCRIBEbtn {
+            padding: 13px 93px;
+        }
+        .footerform-wrap p{
+            padding: 10px 0px;
+        }
+       
+    }
+
